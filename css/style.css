@@ -1,0 +1,38 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color:coral;
+    padding: 1em;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    padding: 1em;
+}
+
+table, caption, th, td{
+    padding: 1em;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-collapse: collapse;
+    background-color:black;
+    color: white;
+}
+.thSueldo, .tdSueldo{
+    border: 0;
+}
+.thInicio{
+    background-color:darkgoldenrod;
+}
+caption{
+    background-color: darkgrey;
+    color: white;
+}
